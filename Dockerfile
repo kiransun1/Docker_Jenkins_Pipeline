@@ -5,7 +5,7 @@ FROM node:latest
 WORKDIR /usr/src/app
 
 # Copying dependencies
-COPY package*.json ./
+#COPY package*.json ./
 
 # Installing node package manager
 RUN npm install
